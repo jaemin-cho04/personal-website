@@ -12,9 +12,7 @@
 <body>
     <div class="bg-grid"></div>
 
-    <!-- =====================
-         HEADER / NAVIGATION
-         ===================== -->
+    <!-- ── Navigation ──────────────────────────────────────── -->
     <header>
         <nav class="container">
             <div class="logo">JAEMIN_CHO</div>
@@ -35,61 +33,12 @@
 
     <main>
 
-        <!-- =====================
-             HERO / ABOUT SECTION
-             ===================== -->
+        <!-- ── Hero — content injected by render.js / data/profile.js ── -->
         <section class="hero" id="about">
-            <div class="container">
-                <div class="hero-content">
-                    <div>
-                        <div class="hero-badge">
-                            <span>🤖</span> Engineering Student
-                        </div>
-                        <h1>
-                            Building the future with
-                            <span class="gradient-text">Mechatronics & AI</span>
-                        </h1>
-                        <p class="hero-description">
-                            Dual specialization in Mechatronics Systems and Artificial Intelligence.
-                            Designing intelligent systems that merge hardware innovation with machine
-                            learning to solve real-world problems.
-                        </p>
-                        <div class="cta-buttons">
-                            <a href="#projects" class="btn btn-primary">Explore Projects</a>
-                            <a href="#contact" class="btn btn-secondary">Let's Talk</a>
-                        </div>
-                    </div>
-
-                    <!-- Hero floating cards — update text to match your current focus -->
-                    <div class="hero-visual">
-                        <div class="floating-cards">
-                            <div class="float-card">
-                                <div class="float-card-icon">⚙️</div>
-                                <h3>Mechatronics</h3>
-                                <p>Systems integration, robotics, and intelligent automation</p>
-                            </div>
-                            <div class="float-card">
-                                <div class="float-card-icon">🧠</div>
-                                <h3>AI Systems</h3>
-                                <p>Machine learning, computer vision, and neural networks</p>
-                            </div>
-                            <div class="float-card">
-                                <div class="float-card-icon">🚀</div>
-                                <h3>Innovation</h3>
-                                <p>Pushing boundaries in robotics and automation</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="container"></div>
         </section>
 
-
-        <!-- =====================
-             SKILLS SECTION
-             To add a new category: copy a .skill-category block.
-             To add a skill: add a <span class="skill-tag"> inside .skill-list.
-             ===================== -->
+        <!-- ── Skills — cards injected by render.js / data/skills.js ── -->
         <section class="section" id="skills">
             <div class="container">
                 <div class="section-header">
@@ -99,48 +48,11 @@
                         Full-stack engineering capabilities spanning robotics, AI, and intelligent systems
                     </p>
                 </div>
-                <div class="skills-grid">
-
-                    <div class="skill-category">
-                        <h3><span class="skill-icon">💻</span> Programming</h3>
-                        <div class="skill-list">
-                            <span class="skill-tag">Python</span>
-                            <span class="skill-tag">C/C++</span>
-                            <span class="skill-tag">Java</span>
-                            <span class="skill-tag">MATLAB</span>
-                        </div>
-                    </div>
-
-                    <div class="skill-category">
-                        <h3><span class="skill-icon">🤖</span> AI & ML</h3>
-                        <div class="skill-list">
-                            <span class="skill-tag">TensorFlow</span>
-                            <span class="skill-tag">PyTorch</span>
-                            <span class="skill-tag">Computer Vision</span>
-                            <span class="skill-tag">Deep Learning</span>
-                        </div>
-                    </div>
-
-                    <div class="skill-category">
-                        <h3><span class="skill-icon">⚙️</span> Mechatronics</h3>
-                        <div class="skill-list">
-                            <span class="skill-tag">ROS/ROS2</span>
-                            <span class="skill-tag">Arduino</span>
-                            <span class="skill-tag">Raspberry Pi</span>
-                            <span class="skill-tag">CAD</span>
-                        </div>
-                    </div>
-
-                </div>
+                <div class="skills-grid"></div>
             </div>
         </section>
 
-
-        <!-- =====================
-             EXPERIENCE SECTION
-             To add a new role: copy a .timeline-item block and fill in the fields.
-             Most recent role goes first (top of the list).
-             ===================== -->
+        <!-- ── Experience — timeline injected by render.js / data/experience.js ── -->
         <section class="section" id="experience">
             <div class="container">
                 <div class="section-header">
@@ -150,45 +62,11 @@
                         Professional experience in robotics, automation, and intelligent systems
                     </p>
                 </div>
-                <div class="timeline">
-
-                    <!-- EXPERIENCE: NAV CANADA -->
-                    <div class="timeline-item">
-                        <div class="experience-title">Communications Engineering CO-OP Student</div>
-                        <div class="experience-company">NAV CANADA</div>
-                        <div class="experience-date">May 2025 – Aug 2025 · Ottawa, ON</div>
-                        <p class="experience-description">
-                            Developed radio communication systems and hardware interfacing solutions
-                            for aviation infrastructure, working with embedded systems and
-                            industrial-grade equipment.
-                        </p>
-                        <ul class="experience-highlights">
-                            <li>Designed and built a high-frequency radio transmitter emulator using Raspberry Pi and Python, integrating GPIO relay control for dynamic frequency and AM mode switching</li>
-                            <li>Developed emulator code in Python using VS Code, communicating with Raspberry Pi via IP address in a Linux environment for remote system control and monitoring</li>
-                            <li>Engineered transistor-based level shifting circuits with 2N3904 BJTs to safely convert 3.3V signals to 24V for MOXA digital I/O, enabling industrial-grade hardware interfacing</li>
-                            <li>Developed fault detection, state logic, and timing control systems for communications equipment</li>
-                            <li>Authored detailed technical reports explaining hardware-software system interactions, ensuring project traceability and SR&ED documentation readiness</li>
-                        </ul>
-                        <div class="tech-badges">
-                            <span class="tech-badge">Python</span>
-                            <span class="tech-badge">Raspberry Pi</span>
-                            <span class="tech-badge">Linux</span>
-                            <span class="tech-badge">GPIO</span>
-                            <span class="tech-badge">Circuit Design</span>
-                            <span class="tech-badge">VS Code</span>
-                        </div>
-                    </div>
-
-                </div>
+                <div class="timeline"></div>
             </div>
         </section>
 
-
-        <!-- =====================
-             PROJECTS SECTION
-             To add a new project: copy a .project-card block and fill in the fields.
-             Most impressive/recent project goes first.
-             ===================== -->
+        <!-- ── Projects — cards injected by render.js / data/projects.js ── -->
         <section class="section" id="projects">
             <div class="container">
                 <div class="section-header">
@@ -198,151 +76,13 @@
                         Showcasing engineering work at the intersection of robotics and artificial intelligence
                     </p>
                 </div>
-                <div class="projects-grid">
-
-                    <!-- PROJECT: Autonomous Scavenger Robot -->
-                    <div class="project-card">
-                        <div class="project-header">
-                            <div>
-                                <div class="project-category">Mechatronics / Robotics</div>
-                                <h3 class="project-title">Autonomous Scavenger Robot</h3>
-                            </div>
-                            <div class="project-date">Jan 2025 – Mar 2025</div>
-                        </div>
-                        <p class="project-description">
-                            Designed and built an autonomous robot to explore an unmarked arena while
-                            collecting gems, autonomously return to base, and filter green "gems" using
-                            color sensors within a 2-minute time limit. Developed integrated subsystems
-                            including a rotating brush intake, servo-controlled dumper, and color-sorting
-                            mechanism using a Pac-Man disk design. Successfully demonstrated autonomous
-                            navigation, object collection, and color-based sorting using ultrasonic sensors
-                            and IR communication between ESP-32 microcontrollers.
-                        </p>
-                        <div class="tech-badges">
-                            <span class="tech-badge">C++</span>
-                            <span class="tech-badge">ESP-32</span>
-                            <span class="tech-badge">SolidWorks</span>
-                            <span class="tech-badge">Circuit Design</span>
-                            <span class="tech-badge">Ultrasonic Sensors</span>
-                            <span class="tech-badge">Color Sensors</span>
-                            <span class="tech-badge">Servo Motors</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">GitHub →</a>
-                            <a href="#" class="project-link">Video Demo →</a>
-                        </div>
-                    </div>
-
-                    <!-- PROJECT: Tic Tac Toe with Gretchen Robot -->
-                    <div class="project-card">
-                        <div class="project-header">
-                            <div>
-                                <div class="project-category">AI / Computer Vision</div>
-                                <h3 class="project-title">Tic Tac Toe with Gretchen Robot</h3>
-                            </div>
-                            <div class="project-date">July 2024</div>
-                        </div>
-                        <p class="project-description">
-                            Developed an interactive Tic Tac Toe game where the Gretchen robot plays against
-                            users using computer vision and intelligent decision-making algorithms. Implemented
-                            board detection using Hough Line Transform and Canny edge detection to identify the
-                            9-cell grid, color-coded position tracking (blue for user, red for robot), and
-                            strategic move selection using winning combination analysis. Successfully integrated
-                            ROS for camera control, OpenCV for real-time image processing, and Python-based
-                            game logic to create an autonomous gaming companion.
-                        </p>
-                        <div class="tech-badges">
-                            <span class="tech-badge">Python</span>
-                            <span class="tech-badge">OpenCV</span>
-                            <span class="tech-badge">ROS</span>
-                            <span class="tech-badge">Computer Vision</span>
-                            <span class="tech-badge">NumPy</span>
-                            <span class="tech-badge">Image Processing</span>
-                            <span class="tech-badge">Edge Detection</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">Technical Report →</a>
-                            <a href="#" class="project-link">GitHub →</a>
-                        </div>
-                    </div>
-
-                    <!-- PROJECT: Air Quality Prediction System -->
-                    <div class="project-card">
-                        <div class="project-header">
-                            <div>
-                                <div class="project-category">AI / Data Science</div>
-                                <h3 class="project-title">Air Quality Prediction System</h3>
-                            </div>
-                            <div class="project-date">2024</div>
-                        </div>
-                        <p class="project-description">
-                            Developed a machine learning pipeline to predict carbon monoxide (CO) levels using
-                            real-world air quality data from 9,357 hourly measurements. Implemented and compared
-                            multiple regression models including Linear Regression, Decision Tree, Random Forest,
-                            Ridge Regression, and Neural Networks (MLPRegressor). Performed comprehensive feature
-                            engineering with polynomial expansion, hyperparameter tuning using GridSearchCV, and
-                            achieved best performance with Random Forest (R²=0.61, RMSE=47.38). Applied
-                            time-series feature extraction, correlation analysis, and Min-Max scaling for data
-                            preprocessing.
-                        </p>
-                        <div class="tech-badges">
-                            <span class="tech-badge">Python</span>
-                            <span class="tech-badge">Scikit-learn</span>
-                            <span class="tech-badge">Pandas</span>
-                            <span class="tech-badge">NumPy</span>
-                            <span class="tech-badge">Matplotlib</span>
-                            <span class="tech-badge">Seaborn</span>
-                            <span class="tech-badge">Neural Networks</span>
-                            <span class="tech-badge">Random Forest</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">Jupyter Notebook →</a>
-                            <a href="#" class="project-link">GitHub →</a>
-                        </div>
-                    </div>
-
-                    <!-- PROJECT: Movie Rating Aggregator -->
-                    <div class="project-card">
-                        <div class="project-header">
-                            <div>
-                                <div class="project-category">Software Engineering / API</div>
-                                <h3 class="project-title">Movie Rating Aggregator System</h3>
-                            </div>
-                            <div class="project-date">2024</div>
-                        </div>
-                        <p class="project-description">
-                            Built a comprehensive movie rating aggregation system that combines data from IMDb
-                            and The Movie Database (TMDB) APIs to rank weekly top movies. Developed RESTful API
-                            integration using HTTP requests, implemented data normalization and merging algorithms
-                            to handle different data formats, and created a ranking system based on combined
-                            ratings and vote counts. Dockerized the application for containerized deployment,
-                            wrote comprehensive unit tests using pytest achieving 95%+ code coverage, and
-                            implemented error handling for API failures and missing data fields.
-                        </p>
-                        <div class="tech-badges">
-                            <span class="tech-badge">Python</span>
-                            <span class="tech-badge">REST API</span>
-                            <span class="tech-badge">Docker</span>
-                            <span class="tech-badge">Pytest</span>
-                            <span class="tech-badge">JSON</span>
-                            <span class="tech-badge">HTTP Client</span>
-                            <span class="tech-badge">Data Processing</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">GitHub →</a>
-                            <a href="#" class="project-link">Documentation →</a>
-                        </div>
-                    </div>
-
-                </div>
+                <div class="projects-grid"></div>
             </div>
         </section>
 
-
-        <!-- =====================
-             CONTACT SECTION
-             Update email, LinkedIn, and GitHub links below.
-             ===================== -->
+        <!-- ── Contact ─────────────────────────────────────────────────── -->
+        <!-- Contact info cards injected by render.js / data/profile.js   -->
+        <!-- Contact form stays here — it's structure, not data            -->
         <section class="section" id="contact">
             <div class="container">
                 <div class="section-header">
@@ -353,30 +93,7 @@
                     </p>
                 </div>
                 <div class="contact-grid">
-                    <div class="contact-info">
-                        <div class="contact-item">
-                            <div class="contact-icon">📧</div>
-                            <div class="contact-details">
-                                <h3>Email</h3>
-                                <a href="mailto:your.email@example.com">your.email@example.com</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">💼</div>
-                            <div class="contact-details">
-                                <h3>LinkedIn</h3>
-                                <a href="#" target="_blank" rel="noopener">linkedin.com/in/yourprofile</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">🐙</div>
-                            <div class="contact-details">
-                                <h3>GitHub</h3>
-                                <a href="https://github.com/jaemin-cho04" target="_blank" rel="noopener">github.com/jaemin-cho04</a>
-                            </div>
-                        </div>
-                    </div>
-
+                    <div class="contact-info"></div>
                     <div class="contact-form">
                         <div class="form-group">
                             <label for="contact-name">Name</label>
@@ -398,22 +115,25 @@
 
     </main>
 
-
-    <!-- =====================
-         FOOTER
-         Update social links to match the contact section above.
-         ===================== -->
+    <!-- ── Footer — links injected by render.js / data/profile.js ── -->
     <footer>
         <div class="container">
-            <div class="social-links">
-                <a href="https://github.com/jaemin-cho04" target="_blank" rel="noopener" aria-label="GitHub">🐙</a>
-                <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn">💼</a>
-                <a href="mailto:your.email@example.com" aria-label="Email">📧</a>
-            </div>
-            <p>&copy; 2025 Jaemin Cho · Mechatronics & AI Engineering</p>
+            <div class="social-links"></div>
+            <p></p>
         </div>
     </footer>
 
+    <!--
+        Script load order matters:
+        1. data files define globals (PROFILE, SKILLS, EXPERIENCE, PROJECTS)
+        2. render.js reads those globals and builds all section content
+        3. main.js wires up nav toggle and scroll observer
+    -->
+    <script src="data/profile.js"></script>
+    <script src="data/skills.js"></script>
+    <script src="data/experience.js"></script>
+    <script src="data/projects.js"></script>
+    <script src="js/render.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
