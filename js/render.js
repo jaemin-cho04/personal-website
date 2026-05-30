@@ -85,9 +85,7 @@ function renderProjects() {
       <div class="tech-badges">
         ${p.tech.map(t => `<span class="tech-badge">${t}</span>`).join('')}
       </div>
-      <div class="project-links">
-        ${p.links.map(l => `<a href="${l.url}" class="project-link">${l.label}</a>`).join('')}
-      </div>
+      ${p.links.length ? `<div class="project-links">${p.links.map(l => `<a href="${l.url}" class="project-link">${l.label}</a>`).join('')}</div>` : ''}
     </div>
   `).join('');
 }
